@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Zen Yoga Schedule</title>
+    <link href="Schedule.css" rel="stylesheet" type="text/css" />
+    
+    <div class="navbar">
+        <ul class="nav">
+        <li><a class="active" href="Home.html">Home<br>Page</a></li>
+        <li><a href="Studio.html">The<br>Studio</a></li>
+        <li><a href="#head">Class<br>Schedule</a></li>
+        <li><a href="#bookAClass">Book a<br>Class</a></li>
+        <li><a href="#footer">Contact<br>Us</a></li>
+        </ul>
+    </div>
+
+    <section class="headpic"></section>
+    <div class="headtext"><h1>Class Schedule</h1></div>
+  </head>  
+
+  <body>
+     <script src="Schedule.js"></script>
+    <div class="tbl">
+        <table class="center">
+            <tr>
+                <th></th>
+                <th>Sunday</th>
+                <th>Monday</th> 
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+            </tr>
+            <tr>
+                <td>8:00-9:00</td>
+                <td>Beginners<br>Yoga</td> 
+                <td>Advanced<br>Yoga</td>
+                <td>Restorative<br>Yoga</td>
+                <td>Aerial<br>Yoga</td>
+                <td>Intermediate<br>Yoga</td>
+            </tr>
+            <tr>
+                <td>9:15-10:30</td>
+                <td>Advanced<br>Yoga</td> 
+                <td>Hot<br>Yoga</td>
+                <td>Restorative<br>Yoga</td>
+                <td>Pilates</td>
+                <td>Strength and<br>Flexibility</td>
+            </tr>
+            <tr>
+                <td>11:00-12:00</td>
+                <td>Restorative<br>Yoga</td> 
+                <td>Beginners<br>Yoga</td>
+                <td>Core<br>Strengthening</td>
+                <td>Intermediate<br>Yoga</td>
+                <td>Aerial<br>Yoga</td>
+            </tr>
+            <tr>
+                <td>5:15-6:15</td>
+                <td>Strength and<br>Flexibility</td> 
+                <td>Strength and<br>Flexibility</td>
+                <td>Pilates</td>
+                <td>Beginners<br>Yoga</td>
+                <td>Hot<br>Yoga</td>
+            </tr>
+            <tr>
+                <td>6:30-7:30</td>
+                <td>Intermediate<br>Yoga</td> 
+                <td>Aerial<br>Yoga</td>
+                <td>Yoga for<br>Flexibility</td>
+                <td>Beginners<br>Yoga</td>
+                <td>Core<br>Strengthening</td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="pricing">
+        <section class="pricingPic"></section>
+        <div class="pricingtext">
+            <h3>Pricing</h3>
+        </div>
+    
+        <section class="pricing_container">
+        <div class="panel" style="background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/close-up-image-of-the-summer-flowering-bulbous-royalty-free-image-931820550-1542831041.jpg')">
+            <h3>Monthly<br>Membership<br><span class="Price">$150</span></h3>
+        </div>
+        <div class="panel" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/a9/Unidentified_Purple_and_Yellow_Flowers_2300px.jpg')">
+            <h3>Card for<br>15 Classes<br><span class="Price">$200</span></h3>
+        </div>
+        <div class="panel" style="background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/how-to-grow-lavender-1622644170.jpg')">
+            <h3>Individual<br>Class<br><span class="Price">$20</span></h3>
+        </div>
+        </section>
+   </div>
+
+   <div class="bac" id="bookAClass">
+        <section class="bacPic"></section>
+        <div class="bactext"><h3>Book a Class</h3></div>
+    
+        <div class="contain">
+        <div class="contain2">
+            <div class="prog-contain">
+                <div class="prog" id="prog"></div>
+                <div class="circ active">1</div>
+                <div class="circ">2</div>
+                <div class="circ">3</div>
+                <div class="circ">4</div>
+                <div class="circ">5</div>
+            </div>   
+        </div>
+
+            <form>
+                <div class="form-container">
+                    <div class="inp open" visibility="hidden" >
+                        <label for="name" class="frm">Name:</label>
+                        <input type=text class="frm" id="name" placeholder="Full Name" required><br> 
+                    </div>
+                    <div class="inp">
+                        <label for="email" class="frm">Email:</label>
+                        <input type=text class="frm" id="email" placeholder="example@example.com" required><br>
+                    </div>
+                    <div class="inp">
+                        <label for="date" class="frm">Date:</label>
+                        <input type="datetime-local" class="frm" id="inp3" name="date" required><br>
+                    </div>
+                    <div class="inp" visibility="hidden">
+                        <label for="8-9" class="frm">Time:</label><br>
+                        <input type="radio" class="frm" id="8-9" name="time" value="8:00-9:00" required >
+                        <label for="8-9" class="frm">8:00-9:00</label><br>
+                        <input type="radio" class="frm" id="915-1030" name="time" value="9:15-10:30" required >
+                        <label for="915-1030" class="frm">9:15-10:30</label><br>
+                        <input type="radio" class="frm" id="11-12" name="time" value="11:00-12:00" required >
+                        <label for="11-12" class="frm">11:00-12:00</label><br>
+                        <input type="radio" class="frm" id="515-615" name="time" value="9:15-10:30" required >
+                        <label for="515-615" class="frm">5:15-6:15</label><br>
+                        <input type="radio" id="630-730" name="time" value="6:30-7:30" required class="frm">
+                        <label for="630-730" class="frm">6:30-7:30</label><br>
+                    </div>
+                </div>
+                    <button class="btn" id="prev">Prev</button>
+                    <button class="btn" id="next">Next</button>
+                    <input type="submit" class="btn" id="sbmt" value="Submit">
+            </form>
+        </div>
+   </div>
+  </body>
+
+  <footer>
+    <div class="contact" id="footer">
+      <h3>Zen Yoga</h3>
+      <ul>
+        <li><label>Phone: </label><a href="tel:516-727-1341"></a>516-727-1341</li>
+        <li><label>Email: </label><a  class="email" href="mailto: chayatovachrein@gmail.com?subject=Interest in Zen Yoga" target="_blank">chayatovachrein@gmail.com</a></li>
+        <li><address>30 Sherwood Lane, Cedarhurst, NY 11516</address></li>
+      </ul>
+    </div>
+
+    <form>
+        <p>For schedule updates and general information please hit subscribe!</p>
+        <div class="subscribeform">
+            <input type="text" id="emailsubscribe" placeholder=" Email" required><br><br>
+            <input type="submit" value="Subscribe" class="subbtn">
+        </div>
+    </form>
+  </footer> 
+</html>

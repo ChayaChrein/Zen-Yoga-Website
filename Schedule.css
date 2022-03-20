@@ -1,0 +1,289 @@
+.headpic{
+    background: url('https://w0.peakpx.com/wallpaper/764/293/HD-wallpaper-serene-growth-growth-orange-quick-yellow-green-quick-purple-serene-canon.jpg') no-repeat center center/cover;
+    position: absolute;
+    justify-content: center;
+    top: 70px;
+    left: 1%;
+    width: 98%;
+    height: 300px;
+    z-index: -1;
+    filter:blur(5px);
+  }
+  
+  .headtext{
+    padding-top: 70px;
+    position:relative;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  .nav{
+    height:70px;
+    position:fixed;
+        margin: 0 auto;
+      padding: 0;
+    z-index:1;
+    overflow: hidden;
+    width: 100%;
+    font-size: 19px;
+    background: #fff;
+    display: flex;
+    padding: 0;
+    top: 0;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  .nav li{
+    text-transform: uppercase;
+    width: 20%;
+    text-align:center;
+    padding: 8px 16px;
+    display: block;
+    border-right: 5px solid #e0edd4;
+  }
+  .nav li:last-child{
+    border-right: none;
+  }
+  .nav a{
+    color: black;
+    text-decoration: none;
+  }
+  body{
+    justify-content: center;
+    text-align: center;
+    align-items:center;
+  }
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+    align-items:center;
+  }
+  .tbl{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70px;
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+    align-items:center;
+    width: 90%;
+  }
+  table, th, td{
+    border: 1px solid;
+  }
+  th, td{
+    padding: 10px;
+  }
+  
+  
+  .pricing{
+    padding-top: 100px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+  .pricing_container{
+     display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+  }
+  .panel{
+    font-size: 25px;
+    background-size: auto auto auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 25vh;
+    width: 25vw;
+    border-radius: 30px; 
+  }
+  .panel .show{
+    opacity: 50%;
+    filter: blur(50%);
+  }
+  .pricingPic{
+    background: url('https://w0.peakpx.com/wallpaper/764/293/HD-wallpaper-serene-growth-growth-orange-quick-yellow-green-quick-purple-serene-canon.jpg') no-repeat center center/cover;
+    position: absolute;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    left: 1%;
+    width: 98%;
+    height: 100px;
+    z-index: -1;
+    filter:blur(5px);
+      padding:0;
+  }
+  .pricingtext{
+    padding:0;
+    position:relative;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+  }
+  .panel h3{
+    
+    font-size: 50px;
+    opacity: 100%;
+  }
+  .Price{
+    visibility: hidden;
+    font-size:70px;
+    opacity:100%;
+    
+  }
+  .panel:hover .Price{
+    visibility: visible;
+  }
+  
+  
+  .bacPic{
+    background: url('https://w0.peakpx.com/wallpaper/764/293/HD-wallpaper-serene-growth-growth-orange-quick-yellow-green-quick-purple-serene-canon.jpg') no-repeat center center/cover;
+    position: absolute;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    left: 1%;
+    width: 98%;
+    height: 100px;
+    z-index: -1;
+    filter:blur(5px);
+    padding:0;
+  }
+  .bactext{
+    padding:8px;
+    position:relative;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+  }
+  .bac{
+    width: 100%;
+      align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .contain2{
+    align-items: center;
+    text-align: center;
+    justify-content:center;
+      max-width:100%;
+    width: 50%;
+    padding-left: 25%;
+  }
+  .prog-contain{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content:space-between;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    
+  }
+  .prog-contain::before{
+    content:'';
+    background-color:#ebebeb;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 4px;
+    width: 100%;
+    z-index: -1;
+  }
+  .prog{
+    background-color:#e0edd4;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 4px;
+    width: 0%;
+    z-index: -1;
+    transition: 0.4s ease;
+  
+  }
+  .circ{
+    background-color: #fff;
+    color: #ebebeb;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #ebebeb;
+    transition: .4s ease;
+  }
+  .form-container {
+    padding-top: 20px;
+    font-size: 25px;
+  }
+  .inp{
+    visibility:hidden;
+  }
+  .inp.open{
+    visibility: visible;
+  }
+  .circ.active{
+    border-color: #e0edd4;
+    color: black;
+  }
+  .btn{
+    background-color: #e0edd4;
+    
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 8px 30px;
+    margin: 5px;
+    font-size:14px;
+  }
+  .btn:active{
+    transform: scale(.98);
+  }
+  .btn:disabled{
+    background-color:#ebebeb;
+    cursor: not-allowed;
+  }
+  
+  
+  footer{
+    background: #e0edd4;
+  }
+  .contact h3{
+    padding-top: 20px;
+      align-items: center;
+    justify-content: center;
+    text-align:center; 
+  }
+  
+  .contact ul{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    padding-left: 0;
+    padding-bottom: 20px;
+    list-style-type: none;
+  }
+  .contact address{
+    font-style: normal;
+  }
+  .subscribeform{
+    padding-bottom: 15px;
+    display: flex;
+    justify-content:center; 
+  }
+  .subbtn{
+    background-color:white;  
+    border: 0;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size:14px;
+  }

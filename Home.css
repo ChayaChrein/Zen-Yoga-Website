@@ -106,15 +106,10 @@
     transition: opacity 0.3s ease-in 0.4s;
   }
   
-  
-  
-  
-  
-  
-  
   footer{
     background: #e0edd4;
   text-align:center;
+  padding-bottom: 15px;
   }
   .contact h3{
     padding-top: 20px;
@@ -135,19 +130,28 @@
   .contact address{
     font-style: normal;
   }
-  .subscribeform{
-    padding-bottom: 15px;
-    display: flex;
-    justify-content:center; 
-  }
-  .subbtn{
-    background-color:white;  
-    border: 0;
-    cursor: pointer;
-    padding: 10px 20px;
-    margin: 5px;
-    font-size:14px;
-  }
+   .subscribeform{
+      display: flex;
+      justify-content:center; 
+    }
+    .subbtn{
+      background-color:white;  
+      border: 0;
+      cursor: pointer;
+      padding: 7px 20px;
+      margin: 5px;
+      font-size:14px;
+      height:3.36vh;
+    }
+    #emailsubscribe{
+          height:3vh;
+          margin: 5px;
+    }
+    
+  
+  
+  
+  
   
   
   
